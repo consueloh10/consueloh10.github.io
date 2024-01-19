@@ -1,0 +1,37 @@
+h1{color:blue;font-family:helvetica}
+h3{color:brown;font-fanmily:helvetica}
+h4{color:purple;font-family:Arial, Helvetica, sans-serif;margin-left:100px;}
+body{background-color: forestgreen;}
+img{border: 5px solid black; width:50%;height:50%; margin-left:100px; padding:20px;}
+}
+.confetti-button:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: https://images.app.goo.gl/7nynj5DxZVRMA5ro8('confetti.png') repeat;
+    pointer-events: none;
+    animation: confettiAnimation 3s linear infinite;
+}
+
+@keyframes confettiAnimation {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+    25% {
+        transform: translateY(-400px) rotate(45deg);
+    }
+    50% {
+        transform: translateY(0) rotate(0deg);
+    }
+    75% {
+        transform: translateY(-400px) rotate(45deg);
+    }
+    100% {
+        transform: translateY(0) rotate(0deg);
+    }
+    body {
+        margin: 0;
+        overflow: hidden;
+      }
+      p1 {padding:50px;}
