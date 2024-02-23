@@ -18,18 +18,43 @@
     <button id="confettiButton" class="confetti-button">Click for Confetti</button>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pencil Nebula Supernova Shock Wave</title>
+</head>
 <body>
-    {"copyright":"Helge Buesing","date":"2024-02-23","explanation":"This supernova shock wave plows through interstellar
-space at over 500,000 kilometers per hour. Centered and moving upward in the sharply detailed color composite its thin,
-bright, braided filaments are actually long ripples in a cosmic sheet of glowing gas seen almost edge-on. Discovered in
-the 1840s by Sir John Herschel, the narrow-looking nebula is sometimes known as Herschel's Ray. Cataloged as NGC 2736,
-its pointed appearance suggests its modern popular name, the Pencil Nebula. The Pencil Nebula is about 800 light-years
-away. Nearly 5 light-years long it represents only a small part of the Vela supernova remnant though. The enormous Vela
-remnant itself is around 100 light-years in diameter, the expanding debris cloud of a star that was seen to explode
-about 11,000 years ago. Initially, the section of the shock wave seen as the Pencil nebula was moving at millions of
-kilometers per hour but has slowed considerably, sweeping up surrounding interstellar
-material.","hdurl":"https://apod.nasa.gov/apod/image/2402/NGC2736_Helge_Buesing2048.jpg","media_type":"image","service_version":"v1","title":"The
-Pencil Nebula Supernova Shock Wave","url":"https://apod.nasa.gov/apod/image/2402/NGC2736_Helge_Buesing1024.jpg"}
+
+<div id="apod-container">
+    <h1>The Pencil Nebula Supernova Shock Wave</h1>
+    <img id="apod-image" alt="The Pencil Nebula Supernova Shock Wave">
+    <p id="apod-explanation"></p>
+    <p id="apod-copyright"></p>
+</div>
+
+<script>
+    const apodData = {
+        "copyright": "Helge Buesing",
+        "date": "2024-02-23",
+        "explanation": "This supernova shock wave plows through interstellar space at over 500,000 kilometers per hour. Centered and moving upward in the sharply detailed color composite its thin, bright, braided filaments are actually long ripples in a cosmic sheet of glowing gas seen almost edge-on. Discovered in the 1840s by Sir John Herschel, the narrow-looking nebula is sometimes known as Herschel's Ray. Cataloged as NGC 2736, its pointed appearance suggests its modern popular name, the Pencil Nebula. The Pencil Nebula is about 800 light-years away. Nearly 5 light-years long it represents only a small part of the Vela supernova remnant though. The enormous Vela remnant itself is around 100 light-years in diameter, the expanding debris cloud of a star that was seen to explode about 11,000 years ago. Initially, the section of the shock wave seen as the Pencil nebula was moving at millions of kilometers per hour but has slowed considerably, sweeping up surrounding interstellar material.",
+        "hdurl": "https://apod.nasa.gov/apod/image/2402/NGC2736_Helge_Buesing2048.jpg",
+        "media_type": "image",
+        "service_version": "v1",
+        "title": "The Pencil Nebula Supernova Shock Wave",
+        "url": "https://apod.nasa.gov/apod/image/2402/NGC2736_Helge_Buesing1024.jpg"
+    };
+
+    // Update the HTML elements with the received data
+    document.getElementById('apod-image').src = apodData.url;
+    document.getElementById('apod-explanation').textContent = apodData.explanation;
+    document.getElementById('apod-copyright').textContent = `Copyright: ${apodData.copyright}`;
+</script>
+
+</body>
+</html>
+
 
 
 <img src="<div style="width:100%;height:0;padding-bottom:70%;position:relative;"><iframe src="https://giphy.com/embed/rAm0u2k17rM3e" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/pokemon-school-college-rAm0u2k17rM3e">via GIPHY</a></p>
